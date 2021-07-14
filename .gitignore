@@ -1,0 +1,6 @@
+# Hardhat things
+artifacts 
+cache
+
+# General things
+node_modules
