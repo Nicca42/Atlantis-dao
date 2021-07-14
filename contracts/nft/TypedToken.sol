@@ -123,9 +123,25 @@ abstract contract TypedToken is ITypedToken {
         );
     }
 
+    // TODO mint 
+
+    // TODO burn
+
+    // TODO add token type 
+    // function addRestrictedTokenType(bytes32 _tokenType, 
+    // bool _onlyRoleCanMint, bool _onlyRoleCanBurn, bool _onlyRoleCanTransfer
+    // bool _moreThanOneRoleHolder) // Should be an NFT? 
+    // returns (bytes32 role)
+
+    // TODO modifier for token type restrictions 
+
     //--------------------------------------------------------------------------
     // (private & internal) STATE MODIFYING
     //--------------------------------------------------------------------------
+
+    // TODO _mint 
+
+    // TODO _burn 
 
     function _transfer(
         address _from,
